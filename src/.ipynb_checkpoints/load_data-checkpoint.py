@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-df = pd.read_csv("../data/hillstrom.csv")
+df = pd.read_csv("data/hillstrom.csv")
 
 conn = sqlite3.connect("uplift.db")
 
